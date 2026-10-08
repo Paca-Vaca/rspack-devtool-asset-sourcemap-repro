@@ -1,0 +1,4 @@
+node_modules
+*.log
+.DS_Store
+# rspack-dist, webpack-dist and rspack-workaround-dist are committed on purpose, to compare the outputs

@@ -1,0 +1,1 @@
+{"version":3,"file":"text/scene.gltf","sources":["webpack://rspack-devtool-asset-sourcemap-repro/./src/scene.gltf"],"sourcesContent":["{\n    \"asset\": { \"version\": \"2.0\" },\n    \"scene\": 0,\n    \"scenes\": [{ \"nodes\": [] }]\n}\n"],"names":[],"mappings":"AAAA;AACA,eAAe,kBAAkB;AACjC;AACA,iBAAiB,aAAa;AAC9B"}

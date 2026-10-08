@@ -1,0 +1,19 @@
+{
+  "name": "rspack-devtool-asset-sourcemap-repro",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npm run build:rspack && npm run build:webpack && npm run build:rspack-workaround",
+    "build:rspack": "rspack build -c ./rspack.config.mjs",
+    "build:webpack": "webpack build -c ./webpack.config.mjs",
+    "build:rspack-workaround": "rspack build -c ./rspack.workaround.config.mjs",
+    "check": "node check.mjs"
+  },
+  "devDependencies": {
+    "@rspack/cli": "2.2.8",
+    "@rspack/core": "2.2.8",
+    "webpack": "5.111.1",
+    "webpack-cli": "7.2.3"
+  }
+}
